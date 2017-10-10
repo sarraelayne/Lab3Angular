@@ -22,7 +22,7 @@ Grading:
 Behavior | Points
 --- | ---
 Contains the basic elements: The Header, 3 input fields (name, email, url), and an add button | 20
-There is an example user, utilizing the custom directive | 20
+There is a custom directive | 20
 A user can be added with just a name | 15
 A user can be added with just an email | 15
 A user can be added with all fields | 15
