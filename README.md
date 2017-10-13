@@ -12,9 +12,6 @@ you'll be better off if you actually type it out and work through it with the tu
 Once you have finished the tutorial, 
 add a way for users to include their email address. 
 
-If you followed the tutorial, your page will conform to the [page object](https://github.com/BYUCS260/Lab3-Angular/blob/update/lab3.page.js). 
-If you didn't, make sure that your lab follows the page object specifications and works with the test driver or you'll get a 0.
-
 Grading:
 
 - Grading will be based off the following (subject to change):
