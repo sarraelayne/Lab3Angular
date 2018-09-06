@@ -1,16 +1,16 @@
 # Lab3-Angular
 
 The goal of this assignment is increase your familiarity with Angular in general through building a simple application. 
-This lab will focus specifically on using custom directives and their power. 
+In this lab you will build the Tour of Heros application that comes with the main Angular tutorial.  This tutorial is well documented and will show you how to use most of the features of Angular.
 
-The tutorial provided fulfills most of the lab requirements. 
+The tutorial provides source code, so you can check to see where your mistakes are. 
 While it is possible to copy and paste through it, 
 you'll be better off if you actually type it out and work through it with the tutorial located here:
 
-[tutorial](https://github.com/BYUCS260/Lab3-Angular/wiki/Tutorial)
+[tutorial](https://angular.io/tutorial)
 
 Once you have finished the tutorial, 
-add a way for users to include their email address. 
+add a nationality for each of the heroes. 
 
 Grading:
 
@@ -18,10 +18,9 @@ Grading:
 
 Behavior | Points
 --- | ---
-Contains the basic elements: The Header, 3 input fields (name, email, url), and an add button | 20
-There is a custom directive | 20
-A user can be added with just a name | 15
-A user can be added with just an email | 15
-A user can be added with all fields | 15
+Contains the basic elements: The Dashboard displays the "Top Heroes" | 20
+The "Heroes" view displays all of the heroes | 20
+You can change the Heroes name | 15
+You can change the Heroes nationality | 30
 Your code is correctly pushed to github | 5
-Your page looks really good, but still has the style elements added in the tutorial. This is subjective, so wow us | 10
+You have changed the CSS to fit your mood. This is subjective, but think about how you can change the look and feel | 10
