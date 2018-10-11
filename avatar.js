@@ -57,11 +57,9 @@ function avatarDirective () {
             var randAv = avArray[Math.floor(Math.random() * avArray.length)];
             scope.user.avatarUrl = randAv;
         }
-    }
-    //parse beginning of email into a username??
-    function name (scope) {
         if (!scope.user.name) {
-            var emailUser = user.name.substr(0, user.name.indexOf('@')); 
+            var emailUser = scope.user.email.substr(0, scope.user.email.indexOf('@')); 
+            console.log(emailUser);
             scope.user.name = emailUser;
         }
     }
