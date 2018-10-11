@@ -3,6 +3,7 @@
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
         <script src="avatar.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="avatar.css">
             <meta charset="utf-8">
             <title>Create a User</title>
@@ -16,12 +17,13 @@
                 <input placeholder='Email' ng-model='userForm.email'/>
                 <button type='submit'>Add New</button>
             </form>
+            </br>
+            <div class="card" ng-repeat='user in users'>
+                    <avatar user='user'/>
+            </div>
             
-            <ul class='user-list'>
-                <li ng-repeat='user in users'>
-                    <avatar user='user' />
-                </li>
-            </ul>
         </div>
     </body>
 </html>
+
+<!--Not pushing to github-->
