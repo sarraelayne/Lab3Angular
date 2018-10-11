@@ -4,13 +4,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
         <script src="avatar.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="avatar.css">
             <meta charset="utf-8">
             <title>Create a User</title>
     </head>
     <body>
         <div ng-app='app' ng-controller='mainCtrl'>
-            <h1>Create new user</h1>
+            <h1>Create Your User Profile</h1>
             <form name='userForm' ng-submit='addNew(userForm)'>
                 <input placeholder='Name' ng-model='userForm.name'/>
                 <input placeholder='Image URL' ng-model='userForm.url'/>
@@ -19,9 +20,8 @@
             </form>
             </br>
             <div class="card" ng-repeat='user in users'>
-                    <avatar user='user'/>
+                <avatar user='user'/>
             </div>
-            
         </div>
     </body>
 </html>
